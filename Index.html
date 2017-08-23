@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		 <meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link href="css/css.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js" ></script>
+		<script type="text/javascript" src="js/resizerem.js" ></script>
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		
+	</head>
+
+	<body>
+		<!--开场图片-->
+		<div style="display: none;" class="imgdsanone">
+		</div>
+		<!--剩余加载图片-->
+		</div>
+		<div style="display: none;" class="imgdsanone2">
+		</div>
+		<!--加载音频-->
+		<div style="display: none;" class="audioS" id="audiosNum">
+			<audio src="music/1.mp3"></audio>
+			<audio src="music/2.mp3"></audio>
+			<audio src="music/3.mp3"></audio>
+			<audio src="music/4.mp3"></audio>		
+		</div>
+		
+		
+		<div class="Start">
+			<em>0%</em>
+			<img src='images/loading/loading_back/loading_back_00000.png' />
+			<img src='images/loading/loading_front/loading_front_00000.png' />
+			<img src='images/loading/loading_top/loading_top_00000.png' />
+		</div>
+		
+		<!--p1-->
+		<div class="InceptionSpace">
+			<em onclick="goP2()"></em>
+			<img src='images/p1/inception_enter/inception_enter _00000.jpg' />
+		</div>
+		<!--p2-->
+		<div class="Interstellar">
+			<em onclick="goP3()"></em>
+			<img src='images/p2/interstellar_enter/interstellar_enter_00000.jpg' />
+		</div>
+		
+		<!--p3-->
+		<div class="Batman">
+			<em onclick="goP4()"></em>
+			<img src='images/p3/batman_enter/batman_enter _00000.jpg' />
+		</div>
+		
+		<!--p4-->
+		<div class="Memento">
+			<em onclick="goP5()"></em>
+			<img src='images/p4/memento_enter/memento_enter _00000.jpg' />
+		</div>
+		
+		<!--p5-->  
+		<div class="Dunkirk">
+			<em onclick="goP6()"></em>
+			<img src='images/p5/dunkirk_enter/dunkirk_enter_00000.jpg' />
+		</div>
+		
+		<!--p6-->
+		<div class="End">
+			<a href="/Index.html" target="_blank" ></a>
+			<a class="last-child" href="javascript:"></a>
+			<img src='images/End/ending_00000.jpg' />
+		</div>
+		
+		<audio id="audio" src=""></audio>
+		
+		<script type="text/javascript" src="js/pictureLoading.js" ></script>
+		<!--<script type="text/javascript" src="js/Index.js" ></script>-->
+	</body>
+
+</html>
